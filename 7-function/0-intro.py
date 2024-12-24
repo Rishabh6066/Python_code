@@ -8,6 +8,11 @@ a function can return data
 Types:          
 1- in bult function : Eg: print(), len(), etc..
 2- user defined function
+    four type:-
+    a) without parameter/ar
+    b) with parameter/arguments
+    c) without parameter with argument  
+    d) with argument with parameter
 3- lambada function
 
 '''
@@ -37,8 +42,9 @@ show()
 #     print(name)
 
 # name()
+#User define fun types:
 
-#1- Without parameter/arguments with return
+#1- Without parameter
 def add():
     a=5
     b=9
@@ -85,3 +91,52 @@ def div(a,b):
     print(f"{a} / {b} = {a/b}")
 
 div(2,4)
+
+#---------------------------------
+# 3 Without argument with return
+def add():
+    a=2
+    b=4
+    return a + b
+print(add())
+
+def sub():
+    a=2
+    b=4
+    return a - b
+print(sub())
+
+def mul():
+    a=2
+    b=4
+    return a * b
+print(mul())
+
+def div():
+    a=2
+    b=4
+    return a / b
+print(div())
+
+#---------------------------------
+# 4 With argument / with return
+
+def add(a,b):
+    return (f"{a} + {b} = {a+b}")
+
+print(add(2,4))
+
+def sub(a,b):
+    return (f"{a} - {b} = {a-b}")
+
+print(sub(2,4))
+
+def mul(a,b):
+    return (f"{a} / {b} = {a*b}")
+
+print(mul(2,4))
+
+def div(a,b):
+    return (f"{a} / {b} = {a/b}")
+
+print(div(2,4))
