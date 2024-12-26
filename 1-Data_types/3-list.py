@@ -66,7 +66,7 @@ print(l[:-1:2])
 
 l.append(42)  # adding one element at last but as a index
 print(l)
-
+print("extend")
 l2=[5,8]
 l.extend(l2) # adding multiple element in list
 print(l)
@@ -89,6 +89,7 @@ print(l)
 
 #.......................................
 #Update
+print("update")
 l[3] = 0
 print(l)
 #

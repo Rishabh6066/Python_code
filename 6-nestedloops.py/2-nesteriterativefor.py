@@ -1,10 +1,10 @@
 
-# l=[[10,11,12,13,14],[0,1,2,3,4]]
+l=[[10,11,12,13,14],[0,1,2,3,4]]
 
 
-# for x in l:
-#     for y in x:
-#         print(y)
+for x in l:
+    for y in x:
+        print(y)
 
 
 

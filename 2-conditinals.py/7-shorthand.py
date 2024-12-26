@@ -3,7 +3,7 @@
 number=float(input("enter the number:"))
 
 #shorthand of if else
-print('even') if a%2==0 else print("odd")
+print('even') if number%2==0 else print("odd")
 
 #shorthand of if
 if number%2!=0: print('odd')
