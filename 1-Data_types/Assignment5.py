@@ -22,3 +22,6 @@ first_index = l.index(1)
 print(first_index)
 second_index = l.index(1, first_index + 1)
 print(second_index)
+
+def add(a,b):
+    return(a+b)

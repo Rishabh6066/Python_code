@@ -16,7 +16,9 @@ def is_even(x):
     
 x=list(filter(is_even,l))
 print(x)    
-
+'''
+[2, 4, 6]
+'''
 # print a list of oddnos from the list using filter
 #[11,32,34,35,54,57]
 
