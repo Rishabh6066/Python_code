@@ -8,7 +8,8 @@
 
   Syntax:
   from functools import reduce
-  reduce(function , iterables , initializer= None) 
+  reduce(function , iterables , initializer= None)
+   
 '''
 
 from functools import reduce

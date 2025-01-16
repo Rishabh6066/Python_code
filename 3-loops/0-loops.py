@@ -16,6 +16,14 @@ while i<10:   #condition
     print(i)
     i+=1      # increment/decrement
 '''
+''' list of 0-10 integer '''
+
+print(list(range(10)))
+print(tuple(range(10)))
+print(set(range(10)))
+
+t=(1)
+print(type(t))
 
 # print no. 10-20 using while loop
 

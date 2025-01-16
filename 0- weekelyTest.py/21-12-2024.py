@@ -262,20 +262,9 @@ print(dict)
 ' ': 4, 'm': 2, 'y': 1, 'n': 1, 'a': 2, 'i': 2, 's': 2, 'R': 1, 'b': 1}
 '''    
 #8
-my_set={1,2,3,4,5,6,7,8}
-num=int(input("Enter the number: "))
-if num in my_set:
-    print("The no. exist in set")
-else:
-    print("The no. does not exist in set")    
-'''
-Output-
-Enter the number: 7
-The no. exist in set
 
-Enter the number: 10
-The no. does not exist in set
-'''    
+
+   
 #10
 # Develop a program to calculate the sum of 
 # squares of the first `n` natural numbers using a loop.
@@ -293,7 +282,11 @@ print("The sum of squares of the first", num, "natural numbers is:", square_sum)
 
 '''
 Output:
+Enter the range of natural numbers: 5
 The sum of squares of the first 5 natural numbers is: 55
+
+Enter the range of natural numbers: 23
+The sum of squares of the first 23 natural numbers is: 4324
 '''
 
 

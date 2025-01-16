@@ -97,3 +97,11 @@ for x in range(n):
         print("*", end="")
     print()
 
+#2
+
+
+#6)     Write a recursive function to calculate the sum of digits of a integer no
+
+ 
+
+#7)     Write a user defined function that works as split()

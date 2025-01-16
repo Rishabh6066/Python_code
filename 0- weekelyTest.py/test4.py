@@ -90,7 +90,7 @@ Output:
   
 #     for i in list_of_num:
 #         sum+=i
-#     print(f"sum of {list_of_num} is  : {sum}")
+#     return print(f"sum of {list_of_num} is  : {sum}")
 
 # numbers()  
 
@@ -121,7 +121,17 @@ def greatest(a,b):
 greatest(9,6) 
 greatest(2,3)
 greatest(1001,543)
-greatest(0,1)   
+greatest(0,1) 
+
+'''
+Output:
+
+a: 9 is greatest
+b: 3 is greatest
+a: 1001 is greatest
+b: 1 is greatest
+
+'''
 
 
 

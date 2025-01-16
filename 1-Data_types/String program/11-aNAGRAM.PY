@@ -1,8 +1,8 @@
 '''
-aNAGRAM : A WORD OR PHASE THAT IS MADE BY ARRABGING THE 
+ANAGRAM : A WORD OR PHASE THAT IS MADE BY ARRABGING THE 
 letters of another word or phase in a different order
 '''
-# WAP to chech the two string given by the user are anagrams or not.
+# WAP to check the two string given by the user are anagrams or not.
 
 
 string1 = input("Enter the first string: ")
